@@ -8,7 +8,7 @@ AlaudaPipeline {
             credentials: 'alaudabot-gitlab'
         ],
         docker: [
-            repository: "middleware/mongodb-exporter",
+            repository: "tdsql/mongodb-exporter",
             credentials: "tdsql-harbor-b",
             context: ".",
             dockerfile: "Dockerfile",
