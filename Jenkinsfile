@@ -17,7 +17,7 @@ AlaudaPipeline {
         ],
         sonar: [
             binding: "sonarqube",
-            enabled: true
+            enabled: false
         ],
     ]
     env = [
