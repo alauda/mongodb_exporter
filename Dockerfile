@@ -16,4 +16,6 @@ COPY --from=0 /go/src/github.com/percona/mongodb_exporter/mongodb_exporter /bin/
 
 EXPOSE 9216
 
+USER 1001
+
 ENTRYPOINT [ "/bin/mongodb_exporter" ]
