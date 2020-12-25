@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/sh 
 
 mongodb1=`getent hosts ${MONGOS} | awk '{ print $1 }'`
 
