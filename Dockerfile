@@ -1,4 +1,4 @@
-FROM golang:1.13-alpine3.12
+FROM golang:1.13
 
 LABEL maintainer="Meik Minks <mminks@inoxio.de>"
 
@@ -8,7 +8,7 @@ COPY . .
 
 RUN make build
 
-FROM alpine:3.12.1
+FROM centos:8
 
 LABEL maintainer="Alexey Palazhchenko <alexey.palazhchenko@percona.com>"
 
