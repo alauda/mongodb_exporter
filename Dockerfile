@@ -1,4 +1,4 @@
-FROM golang:1.13
+FROM golang:1.13-alpine3.12
 
 LABEL maintainer="Meik Minks <mminks@inoxio.de>"
 
@@ -8,7 +8,7 @@ COPY . .
 
 RUN make build
 
-FROM quay.io/prometheus/busybox:latest
+FROM alpine:3.12.1
 
 LABEL maintainer="Alexey Palazhchenko <alexey.palazhchenko@percona.com>"
 
