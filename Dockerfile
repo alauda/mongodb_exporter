@@ -8,7 +8,7 @@ COPY . .
 
 RUN make build
 
-FROM golang:1.13
+FROM alpine:3.12.1
 
 LABEL maintainer="Alexey Palazhchenko <alexey.palazhchenko@percona.com>"
 
