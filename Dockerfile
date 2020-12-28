@@ -8,7 +8,7 @@ COPY . .
 
 RUN make build
 
-FROM centos:8
+FROM golang:1.13
 
 LABEL maintainer="Alexey Palazhchenko <alexey.palazhchenko@percona.com>"
 
