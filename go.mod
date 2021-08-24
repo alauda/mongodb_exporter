@@ -17,4 +17,5 @@ require (
 	github.com/sirupsen/logrus v1.6.0
 	github.com/stretchr/testify v1.6.1
 	go.mongodb.org/mongo-driver v1.4.1
+	golang.org/x/crypto v0.0.0-20201216223049-8b5274cf687f // indirect
 )
