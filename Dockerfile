@@ -8,7 +8,7 @@ COPY . .
 
 RUN make build
 
-FROM alpine:3.12.1
+FROM build-harbor.alauda.cn/ops/alpine:3.14.0
 
 LABEL maintainer="Alexey Palazhchenko <alexey.palazhchenko@percona.com>"
 
