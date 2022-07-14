@@ -1,4 +1,4 @@
-FROM golang:1.13
+FROM golang:1.14
 
 LABEL maintainer="Meik Minks <mminks@inoxio.de>"
 
@@ -8,7 +8,7 @@ COPY . .
 
 RUN make build
 
-FROM build-harbor.alauda.cn/ops/alpine:3.14.0
+FROM build-harbor.alauda.cn/ops/alpine:3.15
 
 LABEL maintainer="Alexey Palazhchenko <alexey.palazhchenko@percona.com>"
 
