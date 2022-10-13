@@ -6,7 +6,7 @@ go 1.14
 // until we have everything we need in a tagged release.
 
 require (
-	github.com/AlekSi/pointer v1.1.0
+	github.com/AlekSi/pointer v1.2.0
 	github.com/alecthomas/kong v0.2.11
 	github.com/percona/exporter_shared v0.7.2
 	github.com/percona/percona-toolkit v0.0.0-20200908164809-0aac7b4cfc30
